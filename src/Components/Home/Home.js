@@ -1,7 +1,7 @@
 import React from "react"
 import './Home.css';
 import SearchBar from "../SearchBar/SearchBar";
-import  "../Data/FakeData.json";
+import FakeData from "../Data/Data.json";
 const Home = () => {
     return (
       <div>
@@ -10,7 +10,7 @@ const Home = () => {
             <p>The search Engine made for you!</p> 
         </header>
         <main>
-            <SearchBar placeholder="Enter Name of Invento..." data={JSON}/>
+            <SearchBar placeholder="Enter Name of Inventon..." data={FakeData}/>
             
         </main>
         

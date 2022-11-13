@@ -1,5 +1,7 @@
 import React from "react"
 import './Home.css';
+import SearchBar from "../SearchBar/SearchBar";
+import  "../Data/FakeData.json";
 const Home = () => {
     return (
       <div>
@@ -8,7 +10,8 @@ const Home = () => {
             <p>The search Engine made for you!</p> 
         </header>
         <main>
-            <h2> In the search engines below: you can search by Invention/ Inventor/ Or the material makeup of a patent.</h2>
+            <SearchBar placeholder="Enter Name of Invento..." data={JSON}/>
+            
         </main>
         
       </div>

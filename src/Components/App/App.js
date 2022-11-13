@@ -5,6 +5,8 @@ import About from '../About/About'
 import HowTo from "../HowTo/HowTo"
 import Landing from "../Landing/Landing"
 import "./App.css"
+import SearchBar from "../SearchBar/SearchBar"
+import FakeDate from "../Data/FakeData.json";
 
 const App = () => {
 
@@ -13,7 +15,6 @@ const App = () => {
         <nav>
           <Link to='/'>
           
-            
             <h1>This is the home page</h1>
           </Link>
           

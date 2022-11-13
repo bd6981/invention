@@ -10,8 +10,9 @@ const Home = () => {
             <p>The search Engine made for you!</p> 
         </header>
         <main>
-            <SearchBar placeholder="Enter Name of Inventon..." data={FakeData}/>
-            
+            <SearchBar id='search' placeholder="Enter Name of Invention..." data={FakeData}/>
+            <SearchBar id='search' placeholder="Enter Name of Inventor..." data={FakeData}/>
+            <SearchBar id='search' placeholder="Enter Name of Patent..." data={FakeData}/>
         </main>
         
       </div>

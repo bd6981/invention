@@ -1,6 +1,10 @@
+
+
 .searchInput{
     margin-top: 105px;
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .search input {
     background-color: white;
@@ -18,7 +22,8 @@
     height: 60px;
     width: 50px;
     background-color: white;
-    display: grid;
+    display:flex;
+    flex-direction: row;
     place-items: center;
   }
   

@@ -7,7 +7,7 @@ const Home = () => {
     return (
       <div>
         <header>
-            <h1>Welcome To The World Of Inventions!</h1>
+            <h1>Web Of Inventions!</h1>
             <p>The search Engine made for you!</p> 
         </header>
         <main>

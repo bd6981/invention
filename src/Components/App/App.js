@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React, { useState, useEffect } from "react"
 import { Route, Routes, Link } from "react-router-dom"
 import Home from "../Home/Home"
 import About from '../About/About'
@@ -8,7 +8,12 @@ import "./App.css"
 import CottageSharpIcon from '@mui/icons-material/CottageSharp';
 
 
-
+function ReactQuery () {
+  const [data, setData] = useState(null);
+}
+  useEffect(() => {
+    fetch ()
+  }
 
 const App = () => {
 

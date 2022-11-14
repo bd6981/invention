@@ -8,12 +8,12 @@ import "./App.css"
 import CottageSharpIcon from '@mui/icons-material/CottageSharp';
 
 
-function ReactQuery () {
-  const [data, setData] = useState(null);
-}
-  useEffect(() => {
-    fetch ()
-  }
+// function ReactQuery () {
+//   const [data, setData] = useState(null);
+// }
+//   useEffect(() => {
+//     fetch ()
+//   }
 
 const App = () => {
 

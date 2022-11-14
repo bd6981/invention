@@ -5,6 +5,8 @@ import About from '../About/About'
 import HowTo from "../HowTo/HowTo"
 import Landing from "../Landing/Landing"
 import "./App.css"
+import CottageSharpIcon from '@mui/icons-material/CottageSharp';
+
 
 
 
@@ -12,15 +14,15 @@ const App = () => {
 
     return (
       <div>
-        <nav>
+        <nav className="nav">
           <Link to='/'>
-          
-            <h1>This is the home page</h1>
+            <CottageSharpIcon />
+
           </Link>
           
-          <Link to='/About'>About Us</Link>
-          <Link to='/HowTo'>Site: How-To</Link>
-          <Link to='/Landing'>Landing</Link>
+          <Link to='/About'><button id='nav' variant="outlined">About</button></Link>
+          <Link to='/HowTo'><button id='nav' variant="outlined">How-To</button></Link>
+          <Link to='/Landing'><button id='nav' variant="outlined">Landing</button></Link>
         </nav>
         <main>
           <Routes>

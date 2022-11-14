@@ -1,15 +1,13 @@
 .App {
   text-align: center;
-  background-color: #282c34;
-  color: cadetblue;
+  background-color: black;
+  color: rgb(220, 218, 212);
 }
 *{
   text-align: center;
-  background-color: #282c34;
-  color: cadetblue;
+  background-color: black;
+  color: rgb(220, 218, 212);
 }
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -20,21 +18,47 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+#nav {
+  width: 120px;
+  height: 50px;
+  border-radius: 20%;
+  background-color: rgb(63, 93, 92);
+  margin: auto 0;
+  box-shadow: #4c9e9e 29% solid;
+  text-shadow: #4c9e9e;
+}
+#nav:hover{
+    background-color: rgb(110, 109, 117);
+    box-shadow: #4c9e9e 29% solid;
+    text-shadow: #4c9e9e;
+
+  }
+a {
+  background-color: black;
+  border-radius: 20%;
+} 
+
+a:hover{
+  box-shadow: #4c9e9e 29% solid;
+  text-shadow: #4c9e9e;
+
+}
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(220, 218, 212);
 }
 
 .App-link {
-  color: #61dafb;
+  color: black;
 }
+
 
 @keyframes App-logo-spin {
   from {
@@ -49,11 +73,11 @@ nav {
   align-items: center;
   justify-content: space-between;
   padding: 20px;
-  background-color: teal;
-  color: #fff;
+  background-color: black;
+  color: rgb(220, 218, 212);
  }
  .nav-links a {
-  color: #fff;
+  color: rgb(220, 218, 212);
  }
  /* LOGO */
  .logo {
@@ -143,6 +167,7 @@ nav {
   background-color: #4c9e9e;
  }
  }
+ 
 
  
  

@@ -2,6 +2,7 @@ import React from "react"
 import './Home.css';
 import SearchBar from "../SearchBar/SearchBar";
 import FakeData from "../Data/Data.json";
+
 const Home = () => {
     return (
       <div>

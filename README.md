@@ -1,4 +1,4 @@
-# Invention: Project #2
+# Web of Inventions: Project #2
 ## Project Description
 The App I’ll be building will be called The World Of Inventions . With this app, the user will be able to search by name of inventor or name of invention. The search will be based upon key-words so once the user enters in what they are seeking, the user will be taken to the results page where all relevant data will appear. The user can scroll through and view article titles. Once they click on the article clipping the inventor/ invention info will appear to read about.
 

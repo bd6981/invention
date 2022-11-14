@@ -1,10 +1,11 @@
 
 
 .searchInput{
-    margin-top: 105px;
+    margin-top: 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 .search input {
     background-color: white;
@@ -17,31 +18,45 @@
     height: 30px;
     width: 300px;
   }
-  
+
   .searchIcon {
     height: 60px;
     width: 50px;
     background-color: white;
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     place-items: center;
+    justify-content: center;
   }
   
   input:focus {
     outline: none;
   }
   .searchIcon svg {
-    font-size: 35px;
+    font-size: 40px;
+
   }
   
   .dataResult {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     width: 300px;
     height: 200px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     overflow: hidden;
     overflow-y: auto;
+    justify-content: center;
+    align-content: center; 
+    margin: auto 0;
+    align-items: center;
+   place-items: center;
+   display: inline;
+     /*WITH RESPECT TO PARENT*/
+     
+      border-radius: 8px;
+   
+   
+    
   }
   
   .dataResult::-webkit-scrollbar {
@@ -54,10 +69,11 @@
     display: flex;
     align-items: center;
     color: black;
+    justify-content: center;
+    align-items: center;
   }
-  
   .dataItem p {
-    margin-left: 10px;
+    /* margin-left: 10px; */
   }
   a {
     text-decoration: none;
@@ -70,3 +86,9 @@
   #clearBtn {
     cursor: pointer;
   }
+#search {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

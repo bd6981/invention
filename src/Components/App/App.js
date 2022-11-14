@@ -6,19 +6,24 @@ import HowTo from "../HowTo/HowTo"
 import Landing from "../Landing/Landing"
 import "./App.css"
 import CottageSharpIcon from '@mui/icons-material/CottageSharp';
+import {QueryClient, QueryClientProvider} from "react-query"
 
 
 // function ReactQuery () {
-//   const [data, setData] = useState(null);
+//   const client = new QueryClient();
 // }
-//   useEffect(() => {
-//     fetch ()
-//   }
+//     fetch ('https://api.patentsview.org/patents/query?q={"_gte":{"patent_date":"2007-01-04"}}')
+//     .then((res) => res.json ())
+//     .then((res) => {
+//       setData(resp);
+//     });
+//   }, []);
+
 
 const App = () => {
 
     return (
-      <div>
+      <div className="App">
         <nav className="nav">
           <Link to='/'>
             <CottageSharpIcon />

@@ -8,11 +8,9 @@ const Home = () => {
       <div>
         <header>
             <h1>Web Of Inventions!</h1>
-            <p>The search Engine made for you!</p> 
+            <p></p> 
         </header>
         <main>
-            <SearchBar id='search' placeholder="Enter Name of Invention..." data={FakeData}/>
-            <SearchBar id='search' placeholder="Enter Name of Inventor..." data={FakeData}/>
             <SearchBar id='search' placeholder="Enter Name of Patent..." data={FakeData}/>
         </main>
         

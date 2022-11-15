@@ -1,9 +1,13 @@
 import React from "react"
 import './Home.css';
 import SearchBar from "../SearchBar/SearchBar";
-import Data from './Data.json'
+// import Data from './Data.json'
+import axios from "axios";
 
 const Home = () => {
+
+
+
     return (
       <div>
         <header>

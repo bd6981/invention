@@ -10,6 +10,7 @@ import CottageSharpIcon from '@mui/icons-material/CottageSharp';
 
 
 
+
 const App = () => {
 
     return (
@@ -26,7 +27,7 @@ const App = () => {
         </nav>
         <main>
           <Routes>
-            <Route path='/' element={ <Home /> } />
+            <Route className='main' path='/' element={ <Home/> }/>
             <Route path='/about' element={ <About /> } />
             <Route path='/howTo' element={ <HowTo /> } />
             <Route path='/landing' element={ <Landing /> } />

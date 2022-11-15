@@ -3,12 +3,12 @@ import './SearchBar.css'
 import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 
-
 function SearchBar({placeholder,data}) {
     const [filteredData, setFilteredData] = useState([]);
     const [wordEntered, setWordEntered] = useState("");
 
-{/* ===\/==My Filter Component(Display dataResult: filters through like data)=\/== */}    
+{/* ===\/==My Filter Component(Display dataResult: filters through like data)=\/== */}  
+
         const handleFilter = (event) => {
         const searchWord = event.target.value;
         setWordEntered(searchWord)
@@ -26,17 +26,17 @@ function SearchBar({placeholder,data}) {
         setFilteredData([]);
         setWordEntered("");
 
-    }
-      
+    
 
   return (
     <div className= 'search'>
-{/* ===\/===My SearchBar component eith a placeholder and icon===\/== */}
+{/* ===\/===My SearchBar component and icon===\/== */}
         <div className='searchInput'>
             <input type='text' placeholder={placeholder} value= {wordEntered} onChange={handleFilter}/>
             <div className='searchIcon'>
                 {filteredData.length === 0 ? (
                 <SearchIcon/>
+                
                 ) : (
                 <CloseIcon id="clearBtn" onClick={clearInput} />
                 )}
@@ -61,5 +61,7 @@ function SearchBar({placeholder,data}) {
     </div>
   );
 }
+}
+
 
 export default SearchBar

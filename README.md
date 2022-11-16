@@ -4,11 +4,11 @@ The App I’ll be building will be called The World Of Inventions . With this ap
 
 ## Project Links
 - [GitHub Repo](https://github.com/bd6981/invention.git)
--TBA [Deployed Version]()
--TBA [Project Recording]()
+-TBD [Deployed Version]()
+-TBD [Project Recording]()
 
 ## Wireframes & React Component Hierarchy
-***TBA
+***TBD
 - [wireframes]()
 - [react architecture]()
 
@@ -45,26 +45,26 @@ Define the the React components and the architectural design of your app.
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Implementing Router structure | H | TBAhrs| TBAhrs | TBAhrs |
-| Implementing Api | H | TBAhrs| TBAhrs | TBAhrs |
-| Filtering Api Data | H | TBAhrs| TBAhrs |
-| Total | H | TBAhrs| TBAhrs | TBAhrs |
+| Implementing Router structure | H | TBDhrs| TBDhrs | TBDhrs |
+| Implementing Api | H | TBDhrs| TBDhrs | TBDhrs |
+| Filtering Api Data | H | TBDhrs| TBDhrs |
+| Total | H | TBDhrs| TBDhrs | TBDhrs |
 
 ## Additional Libraries
-TBA 
+TBD
 
 ## Code Snippet
-TBA
+TBD
 
 ```
 function reverse(string) {
-	// TBA
+	// TBD
 }
 ```
 
 ## Issues and Resolutions
- TBA
+ TBD
 
 #### SAMPLE.....
-**ERROR**: TBA                               
-**RESOLUTION**: TBA
+**ERROR**: TBD                               
+**RESOLUTION**: TBD

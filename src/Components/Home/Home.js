@@ -1,7 +1,7 @@
 import React from "react"
 import './Home.css';
 import SearchBar from "../SearchBar/SearchBar";
-// import Data from './Data.json'
+
 import axios from "axios";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
             <p></p> 
         </header>
         <main>
-            <SearchBar id='search' placeholder="Enter Name of Patent..." data={Data}/>
+            <SearchBar id='search' placeholder="Enter Name of Patent..." />
         </main>
         
       </div>

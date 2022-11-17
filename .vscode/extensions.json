@@ -1,5 +1,7 @@
 {
     "recommendations": [
-        "esbenp.prettier-vscode"
+        "esbenp.prettier-vscode",
+        "rk.bookmarksng",
+        "alefragnani.separators"
     ]
 }

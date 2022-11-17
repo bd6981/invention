@@ -1,13 +1,13 @@
 import React from "react"
 import './Home.css';
 import SearchBar from "../SearchBar/SearchBar";
+// import axios from "axios";
+import { useState, useEffect } from 'react'
 
 
-
-const Home = () => {
-
-
-
+function Home() {
+ 
+ 
     return (
       <div>
         <header>
@@ -15,7 +15,8 @@ const Home = () => {
             <p></p> 
         </header>
         <main>
-            <SearchBar id='search' placeholder="Enter Name..."/>
+            <SearchBar type='text' placeholder="Enter" />
+            {/* <ListPage searchResults={searchResults} /> */}
         </main>
         
       </div>
@@ -23,3 +24,7 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+

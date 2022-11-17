@@ -1,46 +1,61 @@
-import React, { useEffect, useState } from "react";
+import React, {useState, useEffect} from 'react'
 import "./SearchBar.css";
-import SearchIcon from '@mui/icons-material/Search';
+// import SearchIcon from '@mui/icons-material/Search';
+import axios from "axios";
+// import {Input, Card} from "antd"
 // import CloseIcon from '@mui/icons-material/Close';
-import axios from 'axios'
 
-function Searchbar() {
+
+function SearchBar () {
+    const [patents, setPatents] = useState([]);
+    // const [options, setOptions] = useState([]);
+    const [search, setSearch] = useState([]);
+    // const wrapperRef = useRef(null);
   
-    const [type, setType] = useState(0);
-    const [searchText, setSearchText] = useState("");
-   
-    const [content, setContent] = useState([]);
-const fetchSearch = async () => {
-    try {
-      const { data } = await axios.get((`https://api.patentsview.org/patents/query?q={"patent_type":"design"}`),
-    //   {headers : {'X-Api-Key': 'dcdcYsPF.XF4KW3FpPT26fuev2IRnaLbqHhM4B3VS'}})
+    useEffect (() => {
+      const loadSearch = async () =>{
+      const response = await axios.get(`https://api.patentsview.org/patents/query?q={"patent_type":"design"}`); 
+      setSearch(response.data);
+    };
+    loadSearch();
+  
+
+
+  }, [])
+
+  console.log(search)
+
+
+const searchQuery = (text) => {
+  if(!text) {
+    setPatents([])
+  }else{
+  let matches = search.filter((data) => {
+    const regex = new RegExp(`${text}`, "gi");
+    return data.patents.name.match(regex) || data.patents.title.match(regex);
+  });
+  setPatents()
+};
+}
+// console.log(matches)
+  return (
+    <div className="searching">
       
-      )
-      setContent(data.results);
+      <input
+      type="text" 
+      placeholder="Search.."
+      onChange={(e) => searchQuery.map(e.target.value)}
+      />
+     <button onClick={setSearch}  >Search</button>
+      { patents && patents.map((item, index) => (
+      <div key={index} >
+          <input title={`data: ${item.name}`}>
+          </input>
+      </div>
+      ))}
+      </div>
+
+  )
+    }  
       
-      console.log(data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
-  useEffect(() => {
-    fetchSearch();
-    // eslint-disable-next-line
-  }, []);
-// console.log(response.data)
-
-return (
-        <div className="search">
-            <form className="searchInputs">
-                <input type='text' className="searchBox"label="Searchbar"onChange={(e) => setSearchText(e.target.value)}/>
-                    <button onClick={fetchSearch}><SearchIcon  /></button>
-                <input value={type} onChange={(event, newValue) => {setType(newValue);}}></input>
-            </form>
-            <div className="trending">{content && content.map(() => (
-                <inputKey key={"patents"} id={'patent_id'} number={'patent_number'} title={'patent_title'}/>
-            ))}</div>
-
-        </div>
-)}     
-
-export default Searchbar;
+export default SearchBar;

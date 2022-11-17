@@ -3,7 +3,7 @@ import { Route, Routes } from "react-router-dom"
 import Home from "../Home/Home"
 import About from '../About/About'
 import HowTo from "../HowTo/HowTo"
-import Landing from "../Home/Landing"
+// import Landing from "../Home/Landing"
 import Footer from "./Footer"
 import Header from "./Header"
 import "./App.css"
@@ -20,7 +20,7 @@ const App = () => {
         <main>
           <Routes>
             <Route path='/Home' element={ <Home/> } />
-            <Route path='/Landing' element={ <Landing/> } />
+            {/* <Route path='/Landing' element={ <Landing/> } /> */}
             <Route path='/About' element={ <About /> } />
             <Route path='/HowTo' element={ <HowTo /> } />
           </Routes>

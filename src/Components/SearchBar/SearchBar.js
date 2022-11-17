@@ -23,18 +23,21 @@ function SearchBar () {
 
   }, [])
 
-  console.log(search)
+  // console.log(search)
 
 
-const searchQuery = (text) => {
+let searchQuery = (text) => {
   if(!text) {
     setPatents([])
+    console.log("inside search")
   }else{
-  let matches = search.filter((data) => {
+  let matches = search.patents.filter((data) => {
     const regex = new RegExp(`${text}`, "gi");
-    return data.patents.name.match(regex) || data.patents.title.match(regex);
+    return data.patent_title.match(regex);
   });
-  setPatents()
+  
+  setPatents(matches)
+
 };
 }
 // console.log(matches)
@@ -44,12 +47,13 @@ const searchQuery = (text) => {
       <input
       type="text" 
       placeholder="Search.."
-      onChange={(e) => searchQuery.map(e.target.value)}
+      onChange={(e) => searchQuery(e.target.value)}
       />
      <button onClick={setSearch}  >Search</button>
       { patents && patents.map((item, index) => (
       <div key={index} >
-          <input title={`data: ${item.name}`}>
+         {console.log(item)}
+          <input value={`data: ${item.patent_title}`}>
           </input>
       </div>
       ))}

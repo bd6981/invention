@@ -1,10 +1,18 @@
-.searchInput{
-  margin-top: 10%;
+input{
   display: flex;
-  flex-direction:column;
-  align-items: center;
-  justify-content: center;
+  nav-down: auto;
+  width: 80vw;
+  scroll-behavior: smooth;
+  contain: content;
+  flex-direction: wrap;
+  word-wrap: break-word;
+  height: 7vh;
+ 
+
 }
+    
+  
+
 .search input {
   background-color: white;
   border: 0;
@@ -14,7 +22,7 @@
   font-size: 18px;
   padding: 15px;
   height: 28px;
-  width: 300px;
+  width: 500px;
   justify-self: center;
   color: black;
 }
@@ -29,6 +37,7 @@
   justify-self: center;
   position:absolute;
   margin-right: 20px;
+
   
 }
 input:focus {
@@ -83,4 +92,3 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 }   
-

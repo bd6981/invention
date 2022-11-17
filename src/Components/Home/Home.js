@@ -21,8 +21,7 @@ function Home() {
         </header>
         <main>
             <SearchBar type='text' placeholder="Enter" />
-            <SearchBar type='text' placeholder="Enter" />
-            <SearchBar type='text' placeholder="Enter" />
+            
             {/* <Modal/> */}
             {/* <ListPage searchResults={searchResults} /> */}
         </main>

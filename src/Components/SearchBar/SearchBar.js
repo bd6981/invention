@@ -1,7 +1,9 @@
 import React, {useState, useEffect} from 'react'
 import "./SearchBar.css";
-// import SearchIcon from '@mui/icons-material/Search';
+import SearchIcon from '@mui/icons-material/Search';
 import axios from "axios";
+import Modal from "../Modal"
+import ReactDom from 'react-dom'
 // import {Input, Card} from "antd"
 // import CloseIcon from '@mui/icons-material/Close';
 
@@ -40,6 +42,7 @@ let searchQuery = (text) => {
 
 };
 }
+const [isOpen, setIsOpen] = useState(false)
 // console.log(matches)
   return (
     <div className="searching">
@@ -49,7 +52,9 @@ let searchQuery = (text) => {
       placeholder="Search.."
       onChange={(e) => searchQuery(e.target.value)}
       />
-     <button onClick={setSearch}  >Search</button>
+      <div className="BtnSearch" onClick = {() => console.log('clicked')}>
+     <button><SearchIcon onClick={() => setIsOpen(true)}/></button>
+     <Modal open={isOpen} onClose={() => setIsOpen(false)}></Modal></div>
       { patents && patents.map((item, index) => (
       <div key={index} >
          {console.log(item)}

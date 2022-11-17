@@ -12,7 +12,8 @@ function Searchbar() {
     const [content, setContent] = useState([]);
 const fetchSearch = async () => {
     try {
-      const { data } = await axios.get((`https://api.patentsview.org/patents/query?q={"patent_type":"design"}`)
+      const { data } = await axios.get((`https://api.patentsview.org/patents/query?q={"patent_type":"design"}`),
+    //   {headers : {'X-Api-Key': 'dcdcYsPF.XF4KW3FpPT26fuev2IRnaLbqHhM4B3VS'}})
       
       )
       setContent(data.results);

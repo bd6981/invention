@@ -9,8 +9,7 @@ Have you ever had an idea and thought, 'I should invent that'? Web of Inventions
 
 ## Wireframes & React Component Hierarchy
 ***TBD
-- [wireframes](IMG-293!(https://user-images.githubusercontent.com/114895439/202812987-b3a7edc6-670d-459c-88b2-b449ff62a72b.jpg)
-5.jpg)
+![wireframes](https://user-images.githubusercontent.com/114895439/202812987-b3a7edc6-670d-459c-88b2-b449ff62a72b.jpg)
 
 This is the General API site for info-
 ('```https://datatool.patentsview.org/')
@@ -83,7 +82,7 @@ As a user, I want to be able to view the info I search for.
 }
 
 ##References
-[USPTO](https://www.uspto.gov/)
-[LogRocket](https://blog.logrocket.com/create-search-bar-react-from-scratch/)
-[Dev](https://dev.to/salehmubashar/search-bar-in-react-js-545l)
-[Pedro Tech](https://www.youtube.com/watch?v=x7niho285qs)
+-[USPTO](https://www.uspto.gov/)
+-[LogRocket](https://blog.logrocket.com/create-search-bar-react-from-scratch/)
+-[Dev](https://dev.to/salehmubashar/search-bar-in-react-js-545l)
+-[Pedro Tech](https://www.youtube.com/watch?v=x7niho285qs)

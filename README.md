@@ -28,11 +28,11 @@ Define the the React components and the architectural design of your app.
 - On furthering with Mvp goals I would like to add a filtered section to add a material search and date search. Let's say I wanted to look up to see if there are any patients/inventions with this material. The client can type that into the material search box, they will then be taken to the results page which would display relevant data. This app would really help nerdy people like me that love inventions, but would also help people that are looking to create a patient but need to be sure it hasn't already been created
 
 ####User Stories
--Add user stories following the As a [type of user], I want [what the user wants], so that [what it helps accomplish] format.
--As a user, I want to see I a how-to on utilizing the search engine.
--As a user, I want to be able to have a clean Website to view when looking for the data.
--As a user, I want to be able to click the search button and be displayed results.
--As a user, I want to be able to view the info I search for.
+|Add user stories following the As a [type of user], I want [what the user wants], so that [what it helps accomplish] format.
+|As a user, I want to see I a how-to on utilizing the search engine.
+|As a user, I want to be able to have a clean Website to view when looking for the data.
+|As a user, I want to be able to click the search button and be displayed results.
+|As a user, I want to be able to view the info I search for.
 
 
 ## Components
@@ -61,4 +61,17 @@ Define the the React components and the architectural design of your app.
  The biggest issue that arose was implementing my api and having it render on the screen. I was missing a few key components that Alo and Jan helped me correct. I had a couple of elements backwards in my hook and with my .map. We consoled it out and and figured out how to correct it. once corrected the live search rendered api content.
 
 #### SAMPLE.....
+    let searchQuery = (text) => {
+  if(!text) {
+    setPatents([])
+   
+  }else{
+  let matches = search.patents.filter((data) => {
+    const regex = new RegExp(`${text}`, "gi");
+    return data.patent_title.match(regex);
+  });
+  
+  setPatents(matches)
 
+};
+}

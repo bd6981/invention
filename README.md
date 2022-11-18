@@ -9,7 +9,10 @@ Have you ever had an idea and thought, 'I should invent that'? Web of Inventions
 
 ## Wireframes & React Component Hierarchy
 ***TBD
-- [wireframes](IMG-2935.jpg)
+- [wireframes](IMG-293!(https://user-images.githubusercontent.com/114895439/202812987-b3a7edc6-670d-459c-88b2-b449ff62a72b.jpg)
+5.jpg)
+
+
 
 Define the the React components and the architectural design of your app.
 

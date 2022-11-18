@@ -1,27 +1,21 @@
 import React from "react"
 import './Home.css';
 import SearchBar from "../SearchBar/SearchBar";
-// import axios from "axios";
+import InventBar from "../SearchBar/InventBar";
 import { useState, useEffect } from 'react'
-// import Modal from "../Modal"
+
 
 
 function Home() {
-//   const Button_Wrapper_Styles ={
-//     position: 'relative',
-//     zIndex: 1
-  
-//   }
- 
+
+
     return (
       <div>
         <header>
         </header>
         <main>
             <SearchBar type='text' placeholder="Enter" />
-            
-            {/* <Modal/> */}
-            {/* <ListPage searchResults={searchResults} /> */}
+            <InventBar type='text' placeholder="Enter" />
         </main>
         
       </div>

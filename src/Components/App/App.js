@@ -17,18 +17,21 @@ const App = () => {
         
       <nav className="nav">
           <title>
-          <h3>Web</h3> 
-            <h4>of</h4>
-            <h3>Inventions</h3>
+          
           </title>
           <Header className="App-header"/>  
         </nav>
         <main>
+          <div>
+            <h3>Web</h3> 
+            <h4>of</h4>
+            <h3>Inventions</h3>
+          </div>
           
           
           <Routes>
+          <Route path='/About' element={ <About /> } />
             <Route path='/Home' element={ <Home/> } />
-            <Route path='/About' element={ <About /> } />
             <Route path='/HowTo' element={ <HowTo /> } />
           </Routes>
         </main>

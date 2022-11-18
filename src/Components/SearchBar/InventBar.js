@@ -4,15 +4,14 @@ import SearchIcon from '@mui/icons-material/Search';
 import axios from "axios";
 
 
-function SearchBar () {
+function InventBar () {
     const [patents, setPatents] = useState([]);
-    // const [options, setOptions] = useState([]);
     const [search, setSearch] = useState([]);
-    // const wrapperRef = useRef(null);
+   
   
     useEffect (() => {
       const loadSearch = async () =>{
-      const response = await axios.get(`https://api.patentsview.org/patents/query?q={"patent_type":"design"}`); 
+      const response = await axios.get(`https://api.patentsview.org/patents/query?q={"patent_type":"utility"}`); 
       setSearch(response.data);
     };
     loadSearch();
@@ -25,7 +24,7 @@ function SearchBar () {
 let searchQuery = (text) => {
   if(!text) {
     setPatents([])
-    console.log("inside search")
+   
   }else{
   let matches = search.patents.filter((data) => {
     const regex = new RegExp(`${text}`, "gi");
@@ -42,13 +41,12 @@ let searchQuery = (text) => {
     <div className="searching">
       <input
       type="text" 
-      placeholder="Search Patent by Design"
+      placeholder="Search Patent by Utility"
       onChange={(e) => searchQuery(e.target.value)}/>
       <div className="BtnSearch" onClick = {() => console.log('clicked')}/>
      <button><SearchIcon></SearchIcon></button>
       { patents && patents.map((item, index) => (
       <div key={index} >
-         {console.log(item)}
           <input value={`data: ${item.patent_title}`}>
           </input>
       </div>
@@ -58,4 +56,4 @@ let searchQuery = (text) => {
   )
     }  
       
-export default SearchBar;
+export default InventBar;

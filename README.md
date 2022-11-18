@@ -4,12 +4,12 @@ Have you ever had an idea and thought, 'I should invent that'? Web of Inventions
 
 ## Project Links
 - [GitHub Repo](https://github.com/bd6981/invention.git)
--TBD [Deployed Version]()
+-TBD [Deployed Version](https://invention-mu.vercel.app/Home)
 -TBD [Project Recording]()
 
 ## Wireframes & React Component Hierarchy
 ***TBD
-- [wireframes]()
+- [wireframes](wire.jpeg)
 - [react architecture]()
 
 Define the the React components and the architectural design of your app.
@@ -37,34 +37,20 @@ Define the the React components and the architectural design of your app.
 | Home | Contains Header and Search containers as well as being the Home base| 
 | About | Contains the description of the site| 
 | How-To | Conatins instructions on how to utilize the site|
-| SearchBar | Contains SearchBar functionality| 
-| Landing | Contains the material the user searched for| 
+| SearchBar | Contains SearchBar functionality|  
 | Footer | Contains Git Repo| 
 
 ## Time Frames
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Implementing Router structure | H | TBDhrs| TBDhrs | TBDhrs |
-| Implementing Api | H | TBDhrs| TBDhrs | TBDhrs |
-| Filtering Api Data | H | TBDhrs| TBDhrs |
-| Total | H | TBDhrs| TBDhrs | TBDhrs |
-
-## Additional Libraries
-TBD
-
-## Code Snippet
-TBD
-
-```
-function reverse(string) {
-	// TBD
-}
-```
+| Implementing Router structure | H | 3 hrs| 4hrs | 3hrs |
+| Implementing Api | H | 4hrs| 15hrs | 15hrs |
+| Filtering Api Data | H | 15hrs| 20hrs |
+| Total | H | TBDhrs| TBDhrs | 38hrs |
 
 ## Issues and Resolutions
- TBD
+ The biggest issue that arose was implementing my api and having it render on the screen. I was missing a few key components that Alo and Jan helped me correct. I had a couple of elements backwards in my hook and with my .map. We consoled it out and and figured out how to correct it. once corrected the live search rendered api content.
 
 #### SAMPLE.....
-**ERROR**: TBD                               
-**RESOLUTION**: TBD
+

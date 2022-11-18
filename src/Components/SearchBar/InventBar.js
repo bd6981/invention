@@ -18,10 +18,7 @@ function InventBar () {
  
   }, [])
 
- 
-
-
-let searchQuery = (text) => {
+    let searchQuery = (text) => {
   if(!text) {
     setPatents([])
    

@@ -9,35 +9,26 @@ import "./App.css"
 
 
 const App = () => {
- 
-
-    return (
-      
-      <div className="App">
-        
+  return (
+    <div className="App">
       <nav className="nav">
-          <title>
-          
-          </title>
           <Header className="App-header"/>  
-        </nav>
-        <main>
-          <div>
-            <h3>Web</h3> 
-            <h4>of</h4>
-            <h3>Inventions</h3>
-          </div>
-          
-          
-          <Routes>
+      </nav>
+      <main>
+        <div>
+          <h3>Web</h3> 
+          <h4>of</h4>
+          <h3>Inventions</h3>
+        </div>
+        <Routes>
           <Route path='/About' element={ <About /> } />
-            <Route path='/Home' element={ <Home/> } />
-            <Route path='/HowTo' element={ <HowTo /> } />
-          </Routes>
-        </main>
-        <Footer className='footer'/>
-      </div>
-    )
+          <Route path='/Home' element={ <Home/> } />
+          <Route path='/HowTo' element={ <HowTo /> } />
+        </Routes>
+      </main>
+    <Footer className='footer'/>
+  </div>
+ )
 }
 
 export default App

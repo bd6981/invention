@@ -16,8 +16,6 @@ function Home() {
     return (
       <div>
         <header>
-            <h1>Web Of Inventions!</h1>
-            <p></p> 
         </header>
         <main>
             <SearchBar type='text' placeholder="Enter" />

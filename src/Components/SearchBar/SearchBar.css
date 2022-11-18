@@ -1,3 +1,10 @@
+*{
+  margin: 0 auto;
+  background-origin: initial;
+  background-color: black;
+  background-position: cover fixed center;
+  /* margin-bottom: 100%; */
+}
 input{
   display: flex;
   nav-down: auto;
@@ -7,12 +14,7 @@ input{
   flex-direction: wrap;
   word-wrap: break-word;
   height: 7vh;
- 
-
 }
-    
-  
-
 .search input {
   background-color: white;
   border: 0;
@@ -27,18 +29,14 @@ input{
   color: black;
 }
 .searchIcon {
-  /* height: 10px;
-  width: 10px; */
+  height: 20px;
+  width: 20px;
   background-color: rgb(255, 255, 255);
   display: inline;
-  /* align-items: center; */
   place-items: center;
-  /* justify-content: center; */
   justify-self: center;
   position:absolute;
   margin-right: 20px;
-
-  
 }
 input:focus {
   outline: none;
@@ -87,8 +85,8 @@ a:hover {
   cursor: pointer;
 }
 #search {
-display:inline;
-flex-direction: row;
-align-items: center;
-justify-content: center;
+  display:inline;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }   

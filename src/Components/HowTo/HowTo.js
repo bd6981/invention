@@ -5,7 +5,7 @@ function HowTo() {
   return (
     <div className = 'HowTo'>
       <header><h1>Instructons Page</h1></header>
-      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+      Have you ever had an idea and thought, 'I should invent that'? Web of Inventions is an Api driven database. We offer a free, user-friendly tool to search through 10 million Patents from the United States Patent and Trademark Office(USPTO). Future inventors like you, need a way to look up whats aready been done, or how they can do it differently. There are companies that will do patent searches for a charge. But, what if you dont want to pay someone a whole bunch of money just for them to tell you, "Whelp, cant do that." That's why WOI is here for you! Happy Searching My Friend!
     </div>
   )
 }

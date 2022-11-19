@@ -23,6 +23,7 @@ header{
 
 
 }
+/* Modal */
 .modBack {
   width: 100%;
   height: 100%;
@@ -32,6 +33,8 @@ header{
   justify-content: center;
   align-items: center;
   position: front;
+  z-index: 1;
+
 }
 
 .modContainer {

@@ -30,11 +30,6 @@ function Home() {
       {openModal && <Modal closeModal={setOpenModal}/>}
   
         <main>
-      
-       
-    
-       
-          
           <SearchBar type='text' placeholder="Enter" />
           <InventBar type='text' placeholder="Enter" />
         </main>

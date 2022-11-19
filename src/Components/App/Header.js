@@ -9,11 +9,11 @@ const Header = () => {
         <header>
         
             <Link to='/Home'>
-            <CottageSharpIcon />
+            <CottageSharpIcon className='houseIcon'> </CottageSharpIcon>
             </Link>
             
-            <Link to='/About'><button id='nav' variant="outlined">About</button></Link>
-            <Link to='/HowTo'><button id='nav' variant="outlined">How-To</button></Link>
+            <Link className='aboutBtn' to='/About' id='nav' variant="outlined">About</Link>
+            <Link className='howBtn' to='/HowTo' id='nav' variant="outlined">Intro</Link>
         </header>
     </div>
   )

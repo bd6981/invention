@@ -14,10 +14,42 @@ header {
     background-color:black ;
     flex-direction: row;
     size: 2px;
+    color: transparent;
+background: #666666;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 25px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: white;
+font-weight: normal;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: uppercase;
+  }
+   #nav{
+    background-color: black;
+   }
+ 
+  .houseIcon{
+   
+    outline: 5px double rgba(28,110,164,0.4);
+outline-offset: 5px;
+
+  }
+  .aboutBtn{
+    margin-left: 130%;
+    margin-right: 10%;
+    outline: 5px double rgba(28,110,164,0.4);
+outline-offset: 5px;
+font-size: 15px;
   }
    
-  CottageSharpIcon{
-    height: 20vh;
+  .howBtn {
+
+    outline: 5px double rgba(28,110,164,0.4);
+outline-offset: 5px;
+font-size: 15px;
+width: 50vw;
+border-width: 10%;
   }
-   
-   

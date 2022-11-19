@@ -12,38 +12,51 @@
   margin: 0;
   padding : 0;
   color: rgb(220, 218, 212);
-  color-scheme: rgba(255, 255, 255, 0);
 }
 
 
-#nav {
-  width: 120px;
+/* #nav {
+  /* width: 120px;
   height: 50px;
   border-radius: 10% 2px solid grey;
   background-color: rgb(63, 93, 92);
   margin: auto 0;
   box-shadow: #258f74 29% solid;
   text-shadow: #758484;
-  align-items: ;
+  align-items: ; */
 
-  margin-inline:5%;
+  /* margin-inline:5%;
   margin-trim: 3%;
-  
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 18px;
+letter-spacing: 1px;
+word-spacing: 1.8px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
 }
-#nav:hover{
+#nav {
+  height: 5vh;
+
+} */
+  
+
+/* #nav:hover{
     background-color: rgb(68, 68, 71);
     box-shadow: #4c9e9e 29% solid;
     text-shadow: #2ad9d9;
-    cursor: pointer;
-}
+    cursor: pointer; */
+
 a {
-  background-color: black;
-  border-radius: 20%;
+ 
 }
 a:hover{
-  box-shadow: #7b8080 29% solid;
-  text-shadow: #4c9e9e; 
-}
+  
+
+} */
 .App-header {
   background-color: rgb(24, 15, 15);
   min-height: 100vh;
@@ -57,15 +70,32 @@ a:hover{
 }
 header {
   display : flex;
-  background-color: rgba(56, 8, 8, 0.559);
+  background-color: black;
   flex-direction: row;
   size: 2px;
 }
  
-CottageSharpIcon{
-  height: 20vh;
-}
+
+.title {
  
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-size: 18px;
+letter-spacing: 1px;
+word-spacing: 1.8px;
+
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+outline: 5px double rgba(28,110,164,0.4);
+outline-offset: 5px;
+
+}
+h4, h1{
+  margin-top: 3%
+  
+}
  
  
  

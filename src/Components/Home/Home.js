@@ -24,8 +24,8 @@ function Home() {
       onClick={() =>{
       setOpenModal(true);
       }}
-      >
-      Why am I here??
+      ><h7>Why We Do This!</h7>
+      
       </button>
       {openModal && <Modal closeModal={setOpenModal}/>}
   

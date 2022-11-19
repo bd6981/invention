@@ -1,13 +1,4 @@
 
-header {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-    background-color: black;
-    color: burlywood;
-    text-align: center;
-
-}
 #search{
   display:flex;
   flex-direction: column;
@@ -98,19 +89,38 @@ header{
   background-color: rgb(20, 220, 130);
 }
 .openModBtn{
+ 
     width: 180px;
     height: 30px;
     border-radius: 0% 2px solid grey;
-    background-color: rgb(63, 93, 92);
+    /* background-color: rgb(63, 93, 92); */
     margin: auto 0;
     box-shadow: #e1eaea 29% solid;
-    text-shadow: #4c9e9e;
+    /* text-shadow: #4c9e9e; */
     cursor: pointer;
-    border-radius: 10%;
+    margin-top: 5%;
+    outline: 5px double rgba(28,110,164,0.4);
+outline-offset: 5px;
+    
+   
 }
 .openModBtn :hover{
-      background-color: rgb(110, 109, 117);
+      /* background-color: rgb(110, 109, 117);
       box-shadow: #e3eaea 29% solid;
-      text-shadow: #4c9e9e;
+      text-shadow: #4c9e9e; */
       cursor: pointer;
   }
+button{
+  outline: 1px double rgba(28,110,164,0.69);
+  border: 3px ridge rgba(33, 111, 164, 0.313);
+  padding: auto;
+ color: white;
+ 
+}
+button:hover{
+  border-color:  cornsilk;
+  outline-color: cornsilk;
+ 
+ 
+}
+

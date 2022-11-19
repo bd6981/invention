@@ -15,7 +15,7 @@ const App = () => {
           <Header className="App-header"/>  
       </nav>
       <main>
-        <div>
+        <div className='title'>
           <h1>Web</h1> 
           <h4>of</h4>
           <h1>Inventions</h1>

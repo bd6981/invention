@@ -108,20 +108,3 @@ a:hover {
   margin-top: 15%;
   text-align: center;
 }
-#nav {
-  width: 120px;
-  height: 50px;
-  border-radius: 0% 2px solid grey;
-  background-color: rgb(63, 93, 92);
-  margin: auto 0;
-  box-shadow: #4c9e9e 29% solid;
-  text-shadow: #4c9e9e;
-}
-#nav:hover{
-    background-color: rgb(110, 109, 117);
-    box-shadow: #4c9e9e 29% solid;
-    text-shadow: #4c9e9e;
-}
-.drop{
-  width: 20vw;
-}

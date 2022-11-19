@@ -36,12 +36,22 @@ function InventBar () {
 
   return (
     <div className="searching">
+      <form className='drop'>
+      <select>
+        <option value = "utility">Utility</option>
+        <option value = "design">Design</option>
+        <option value = "stationary">Stationary</option>
+        <option value = "govern">Govern</option>
+
+      </select>
+      </form>
       <input
       type="text" 
+      className='invenSearch'
       placeholder="Search Patent by Utility"
       onChange={(e) => searchQuery(e.target.value)}/>
       <div className="BtnSearch" onClick = {() => console.log('clicked')}/>
-     <button><SearchIcon></SearchIcon></button>
+     
       { patents && patents.map((item, index) => (
       <div key={index} >
           <input value={`data: ${item.patent_title}`}>

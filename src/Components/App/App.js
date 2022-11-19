@@ -16,9 +16,9 @@ const App = () => {
       </nav>
       <main>
         <div>
-          <h3>Web</h3> 
+          <h1>Web</h1> 
           <h4>of</h4>
-          <h3>Inventions</h3>
+          <h1>Inventions</h1>
         </div>
         <Routes>
           <Route path='/About' element={ <About /> } />

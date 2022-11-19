@@ -4,6 +4,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import axios from "axios";
 
 
+
 function SearchBar () {
     const [patents, setPatents] = useState([]);
     // const [options, setOptions] = useState([]);
@@ -42,10 +43,11 @@ let searchQuery = (text) => {
     <div className="searching">
       <input
       type="text" 
+      className="searchInput"
       placeholder="Search Patent by Design"
       onChange={(e) => searchQuery(e.target.value)}/>
       <div className="BtnSearch" onClick = {() => console.log('clicked')}/>
-     <button><SearchIcon></SearchIcon></button>
+     
       { patents && patents.map((item, index) => (
       <div key={index} >
          {console.log(item)}

@@ -3,17 +3,24 @@
   background-origin: initial;
   background-color: black;
   background-position: cover fixed center;
+  color: cadetblue;
   /* margin-bottom: 100%; */
 }
 input{
   display: flex;
   nav-down: auto;
-  width: 80vw;
+  border-radius: 6%;
+  padding: ;
+  width: 50vw;
   scroll-behavior: smooth;
   contain: content;
   flex-direction: wrap;
   word-wrap: break-word;
-  height: 7vh;
+  height: 5vh;
+  background-color: rgb(48, 55, 61);
+  border-spacing: 3%;
+  border-color: aquamarine 3px solid;
+  box-shadow: 10px blue;
 }
 .search input {
   background-color: white;
@@ -26,12 +33,15 @@ input{
   height: 28px;
   width: 500px;
   justify-self: center;
-  color: black;
+  color: rgb(102, 88, 88);
+  shape-margin: 10%;
+  border-spacing: 3%;
+  border-color: aquamarine 3px solid;
 }
 .searchIcon {
   height: 20px;
   width: 20px;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(114, 104, 104);
   display: inline;
   place-items: center;
   justify-self: center;
@@ -90,3 +100,28 @@ a:hover {
   align-items: center;
   justify-content: center;
 }   
+.invenSearch{
+  margin-top: 10%;
+  text-align: center;
+}
+.searchInput{
+  margin-top: 15%;
+  text-align: center;
+}
+#nav {
+  width: 120px;
+  height: 50px;
+  border-radius: 0% 2px solid grey;
+  background-color: rgb(63, 93, 92);
+  margin: auto 0;
+  box-shadow: #4c9e9e 29% solid;
+  text-shadow: #4c9e9e;
+}
+#nav:hover{
+    background-color: rgb(110, 109, 117);
+    box-shadow: #4c9e9e 29% solid;
+    text-shadow: #4c9e9e;
+}
+.drop{
+  width: 20vw;
+}

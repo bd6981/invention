@@ -1,7 +1,7 @@
 import CottageSharpIcon from '@mui/icons-material/CottageSharp';
 import React from "react"
 import { Link } from "react-router-dom"
-import './App.css' 
+import './header.css' 
 
 const Header = () => {
   return (

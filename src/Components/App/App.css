@@ -1,39 +1,47 @@
  .App {
   text-align: center;
-  color: rgb(220, 218, 212);
+  color: rgb(84, 79, 62);
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   align-items: center;
   background-size: cover;
+  background-color: #00000087;
  }
 *{
   margin: 0;
   padding : 0;
   color: rgb(220, 218, 212);
+  color-scheme: rgba(255, 255, 255, 0);
 }
 
 
 #nav {
   width: 120px;
   height: 50px;
-  border-radius: 0% 2px solid grey;
+  border-radius: 10% 2px solid grey;
   background-color: rgb(63, 93, 92);
   margin: auto 0;
-  box-shadow: #4c9e9e 29% solid;
-  text-shadow: #4c9e9e;
+  box-shadow: #258f74 29% solid;
+  text-shadow: #758484;
+  align-items: ;
+
+  margin-inline:5%;
+  margin-trim: 3%;
+  
 }
 #nav:hover{
-    background-color: rgb(110, 109, 117);
+    background-color: rgb(68, 68, 71);
     box-shadow: #4c9e9e 29% solid;
-    text-shadow: #4c9e9e;
+    text-shadow: #2ad9d9;
+    cursor: pointer;
 }
 a {
   background-color: black;
   border-radius: 20%;
 }
 a:hover{
-  box-shadow: #4c9e9e 29% solid;
+  box-shadow: #7b8080 29% solid;
   text-shadow: #4c9e9e; 
 }
 .App-header {
@@ -47,13 +55,16 @@ a:hover{
   color: rgb(220, 218, 212);
   justify-content: center;
 }
-Header {
+header {
   display : flex;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(56, 8, 8, 0.559);
   flex-direction: row;
+  size: 2px;
 }
  
-
+CottageSharpIcon{
+  height: 20vh;
+}
  
  
  

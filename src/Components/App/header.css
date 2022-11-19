@@ -1,0 +1,23 @@
+header {
+    /* background-color: rgb(24, 15, 15);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(220, 218, 212);
+    justify-content: center; */
+  }
+  header {
+    display : flex;
+    background-color:black ;
+    flex-direction: row;
+    size: 2px;
+  }
+   
+  CottageSharpIcon{
+    height: 20vh;
+  }
+   
+   

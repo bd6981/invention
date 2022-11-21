@@ -35,7 +35,12 @@ text-transform: uppercase;
    
     outline: 5px double rgba(28,110,164,0.4);
 outline-offset: 5px;
-
+  }
+  .houseIcon:hover{
+    border-color:  cornsilk;
+    outline-color: cornsilk;
+   
+   
   }
   .aboutBtn{
     margin-left: 130%;
@@ -43,6 +48,12 @@ outline-offset: 5px;
     outline: 5px double rgba(28,110,164,0.4);
 outline-offset: 5px;
 font-size: 15px;
+  }
+  .aboutBtn:hover{
+    border-color:  cornsilk;
+    outline-color: cornsilk;
+   
+   
   }
    
   .howBtn {
@@ -52,4 +63,10 @@ outline-offset: 5px;
 font-size: 15px;
 width: 50vw;
 border-width: 10%;
+  }
+  .howBtn:hover{
+    border-color:  cornsilk;
+    outline-color: cornsilk;
+   
+   
   }

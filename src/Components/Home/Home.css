@@ -1,50 +1,43 @@
-
 #search{
   display:flex;
   flex-direction: column;
   align-items: center; 
   justify-content: center;
-
 }
-
 header{
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
 }
 /* Modal */
 .modBack {
-  width: 100%;
-  height: 100%;
- margin-bottom: 80%;
+  margin-bottom: 80%;
   position: fixed;
   display:inherit;
   justify-content: center;
   align-items: center;
   position: front;
   z-index: 1;
+  outline: 1px double rgba(28,110,164,0.69);
+  border: 3px ridge rgba(33, 111, 164, 0.313);
+  padding: auto;
+  color: white;
 
 }
-
 .modContainer {
   width: 700px;
   height: 500px;
   border-radius: 10px;
-  background-color: rgb(110, 155, 168);
-  box-shadow: rgba(247, 245, 245, 0.35) 0px 5px 15px;
   display: flex;
   flex-direction: column;
   padding: 25px;
+ 
 }
-
 .modContainer .title {
   display: inline-block;
   text-align: center;
   margin-top: 0px;
 }
-
 .titleCloseBtn {
   display: flex;
   justify-content: center;
@@ -53,10 +46,8 @@ header{
 .titleCloseBtn button {
   background-color: transparent;
   border: none;
- 
   cursor: pointer;
 }
-
 .modContainer .body {
   /* flex: 50%; */
   display: flex;
@@ -65,14 +56,12 @@ header{
   font-size: 20px;
   text-align: center;
 }
-
 .modContainer .footer {
   flex: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .modContainer .footer button {
   width: 150px;
   height: 45px;
@@ -84,12 +73,10 @@ header{
   font-size: 20px;
   cursor: pointer;
 }
-
 #cancelBtn {
   background-color: rgb(20, 220, 130);
 }
 .openModBtn{
- 
     width: 180px;
     height: 30px;
     border-radius: 0% 2px solid grey;
@@ -100,27 +87,19 @@ header{
     cursor: pointer;
     margin-top: 5%;
     outline: 5px double rgba(28,110,164,0.4);
-outline-offset: 5px;
-    
-   
+    outline-offset: 5px; 
 }
 .openModBtn :hover{
-      /* background-color: rgb(110, 109, 117);
-      box-shadow: #e3eaea 29% solid;
-      text-shadow: #4c9e9e; */
       cursor: pointer;
   }
 button{
   outline: 1px double rgba(28,110,164,0.69);
   border: 3px ridge rgba(33, 111, 164, 0.313);
   padding: auto;
- color: white;
- 
+  color: white;
 }
 button:hover{
   border-color:  cornsilk;
   outline-color: cornsilk;
- 
- 
 }
 

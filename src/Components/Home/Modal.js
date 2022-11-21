@@ -7,8 +7,7 @@ function Modal({closeModal}) {
     <div className="modBack">
         <div className="modContainer">
             <div calssName='titleCloseBtn'>
-            <button onClick={() =>
-                closeModal(false)}>X</button></div>
+            </div>
             <div className='title'>
                 <h1>Why am I here??</h1></div>
             <div className='body'>

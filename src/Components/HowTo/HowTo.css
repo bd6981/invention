@@ -1,18 +1,42 @@
 .HowTo {
-    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1.8px;
+    outline: 1px double rgba(28,110,164,0.69);
+    border: 3px ridge rgba(33, 111, 164, 0.313);
+    padding: auto;
+    color: white;
     margin-left: 25%;
     margin-right: 25%;
- display: flex;
- flex-direction: column;
+    margin-top: 20%; 
+}
+/* header {
+    text-decoration: underline white  2px;
+    padding: auto; */
 
-  margin-bottom: 0%;
-  border-spacing: 10%;
-  border: 5px groove rgba(240, 243, 245, 0.28);
-  border-radius: 0px 28px 0px 37px;
-  -webkit-box-shadow: 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px -7px 27px 1px #8E5CFF, 5px 5px 19px -10px rgba(215,29,219,0.26); 
-box-shadow: 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px -7px 27px 1px #8E5CFF, 5px 5px 19px -10px rgba(215,29,219,0.26);
+ul {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 1.8px;
+    outline: 1px double rgba(28,110,164,0.69);
+    border: 3px ridge rgba(33, 111, 164, 0.313);
+    padding: auto;
+    color: white;
+    
 }
 header {
-    text-decoration: underline white  2px;
-    padding: auto;
+    place-content: center;
+     
 }
+h3{
+    place-content: center;
+}
+
